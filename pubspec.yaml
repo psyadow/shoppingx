@@ -62,6 +62,24 @@ flutter:
   assets:
 
     - lib/assets/images/abstract.png
+    - lib/assets/icons/search.png
+    - lib/assets/images/visa.png
+    - lib/assets/icons/discount.png
+    - lib/assets/icons/tshirt.png
+    - lib/assets/icons/home.png
+    - lib/assets/icons/kitchen.png
+    - lib/assets/icons/monitor.png
+    - lib/assets/icons/running.png
+    - lib/assets/images/insta360.jpeg
+    - lib/assets/icons/heart.png
+    - lib/assets/images/nike.jpg
+    - lib/assets/images/series7.jpeg
+    - lib/assets/icons/home.png
+    - lib/assets/icons/category.png
+    - lib/assets/icons/cart.png
+    - lib/assets/icons/account.png
+    - lib/assets/images/banner1.jpg
+    - lib/assets/images/banner2.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -86,8 +86,12 @@ class welcomePage extends StatelessWidget {
             const SizedBox(height: 10),
             InkWell(
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => (myHome())));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => (myHome()),
+                  ),
+                );
               },
               child: Container(
                 width: MediaQuery.of(context).size.width,
