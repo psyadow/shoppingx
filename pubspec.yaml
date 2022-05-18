@@ -80,6 +80,8 @@ flutter:
     - lib/assets/icons/account.png
     - lib/assets/images/banner1.jpg
     - lib/assets/images/banner2.jpg
+    - lib/assets/images/blur.jpg
+    - lib/assets/images/dp.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:shoppingx/pages/profile.dart';
+import 'package:shoppingx/widgets/navbar.dart';
 
 class myHome extends StatelessWidget {
   const myHome({Key? key}) : super(key: key);
@@ -454,75 +456,7 @@ class landingPage extends StatelessWidget {
         ),
       ),
       //Bottom Navbar ---------------------------------------------------------
-      bottomNavigationBar: BottomAppBar(
-        elevation: 0,
-        color: Color(0xffD8D8DA),
-        child: Container(
-          margin: EdgeInsets.all(5),
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(25), color: Colors.black),
-          padding: EdgeInsets.symmetric(vertical: 14, horizontal: 20),
-          height: 60,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              InkWell(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const <Widget>[
-                    Image(
-                      image: AssetImage('lib/assets/icons/home.png'),
-                      height: 30,
-                      width: 30,
-                      color: Colors.white,
-                    ),
-                  ],
-                ),
-              ),
-              InkWell(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const <Widget>[
-                    Image(
-                      image: AssetImage('lib/assets/icons/category.png'),
-                      height: 28,
-                      width: 28,
-                      color: Colors.white,
-                    ),
-                  ],
-                ),
-              ),
-              InkWell(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const <Widget>[
-                    Image(
-                      image: AssetImage('lib/assets/icons/cart.png'),
-                      height: 30,
-                      width: 30,
-                      color: Colors.white,
-                    ),
-                  ],
-                ),
-              ),
-              InkWell(
-                onTap: (() {}),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const <Widget>[
-                    Image(
-                      image: AssetImage('lib/assets/icons/account.png'),
-                      height: 30,
-                      width: 30,
-                      color: Colors.white,
-                    ),
-                  ],
-                ),
-              )
-            ],
-          ),
-        ),
-      ),
+      bottomNavigationBar: navBar(),
     );
   }
 }
